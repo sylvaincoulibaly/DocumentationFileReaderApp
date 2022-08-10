@@ -14,7 +14,7 @@ author = 'Sylvain Coulibay'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 
-extensions = ["myst_parser", "sphinx.ext.autodoc"]  # ajouter pour que myst comprenne le markdown
+extensions = ["sphinx.ext.autodoc"]  # ajouter pour que myst comprenne le markdown, "myst_parser",
 templates_path = ['_templates']
 exclude_patterns = []
 source_suffix = [".md", ".rst"]  # nécessaire pour les versions de python < 3.9 ??
